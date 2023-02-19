@@ -2,14 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-.font-family-heading {
-  font-family: "Josefin Sans", sans-serif;
-}
-
 .ff-eb {
   font-family: "EB Garamond", serif;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  line-height: 1.6;
 }

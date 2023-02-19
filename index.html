@@ -10,32 +10,45 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Josefin+Sans:wght@700&family=Poppins:wght@400;500&display=swap"
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins:wght@400;500&display=swap"
     rel="stylesheet">
 </head>
 
 <body>
-  <header id="main-header" class="container px-4 mx-auto">
+  <header id="main-header" class="max-w-[1100px] px-4 mx-auto">
     <nav class="flex items-center h-[80px] bg-white text-blue-800">
-      <h3 class="font-family-heading text-xl border-4 border-blue-700 px-2 pt-3 pb-2">CSC</h3>
+      <h3 class="ff-eb text-xl border-2 border-blue-700 p-3">CSC</h3>
       <a href="#services" class="font-medium ml-auto">Our Services</a>
     </nav>
   </header>
   <main>
-    <section class="border-b-8 border-blue-700" style="background-image: url(/assets/hero-bg.webp)">
-      <div class="container mx-auto px-4 text-right">
-        <div class="h-[300px]"></div>
-        <div class="bg-slate-200 p-8 inline-flex max-w-[600px] text-left">
+    <section class="border-b-8 border-blue-700 bg-cover" style="background-image: url(/assets/hero-bg.webp)">
+      <div class="max-w-[1100px] mx-auto px-4">
+        <div class="h-[200px] md:h-[400px]"></div>
+        <div class="bg-slate-100 py-8 px-10 inline-flex max-w-[600px] text-left -mb-[200px]">
           <div>
             <h1 class="text-6xl text-blue-800 ff-eb">Common Service Center Bakhshiwala</h1>
-            <p class="mt-4 text-sm text-gray-600">
-              CSCs are the access points for delivery of essential public utility services, social welfare schemes,
-              healthcare, financial, education and agriculture services, apart from host of B2C services to citizens in
-              rural and remote areas of the country. It is a pan-India network catering to regional, geographic,
-              linguistic and cultural diversity of the country, thus enabling the Government's mandate of a socially,
-              financially and digitally inclusive society.
-            </p>
+            <div class="flex mt-6 gap-6">
+              <div class="w-[60px] hidden md:block">
+                <div class="bg-blue-700 w-full h-[2px] mt-2"></div>
+              </div>
+              <p class="flex-1 text-sm text-gray-600">
+                CSCs are the access points for delivery of essential public utility services, social welfare schemes,
+                healthcare, financial, education and agriculture services, apart from host of B2C services to citizens in
+                rural and remote areas of the country. It is a pan-India network catering to regional, geographic,
+                linguistic and cultural diversity of the country, thus enabling the Government's mandate of a socially,
+                financially and digitally inclusive society.
+              </p>
+            </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-[300px]">
+      <div class="bg-blue-700 py-[70px]">
+        <div class="max-w-[1100px] mx-auto px-4">
+          <h2 class="ff-eb text-4xl text-white">Our Services</h2>
         </div>
       </div>
     </section>
